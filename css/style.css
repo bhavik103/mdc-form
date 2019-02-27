@@ -1,0 +1,107 @@
+body {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  background-color: rgba(0,0,0,0.05);
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  background: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mdc-drawer-app-content {
+  flex: auto;
+  overflow: auto;
+  position: relative;
+}
+
+.main-content {
+  overflow: auto;
+  height: 100%;
+  padding: 18px;
+}
+
+.app-bar {
+  position: absolute;
+}
+.mdc-drawer{
+  margin-top: 65px;
+}
+.mdc-top-app-bar {
+  z-index: 7;
+}
+.logo_img{
+  height:40px;
+  width: 40px;
+  margin-left: 4px auto;
+}
+.mdc-list-item a{
+  text-decoration: none;
+}
+
+.mdc-top-app-bar__section--align-end{
+  margin-right: 100px;
+}
+
+.mdc-top-app-bar {
+  background : rgba(21, 112, 48, 0.64);
+}
+
+body{
+
+
+}
+
+.mdc-top-app-bar--fixed-adjust {
+ padding-top: 0px; 
+}
+
+/*LOGIN STYLE *************************************/
+
+.main {
+  display: flex;
+}
+
+h1{
+  color: white
+}
+
+.login-box {
+  background: rgba(185, 10, 4, 0.70);
+  margin-top: 50px;
+}
+.fname,.lname, .email, .password{
+  display: block;
+  width: 500px;
+  margin: 20px auto;
+}
+
+.button-container button {
+  margin: 3px;
+}
+
+
+
+.mdc-button:not(:disabled){
+  color: white;
+  font-weight: bolder;
+}
+
+.mdc-button--raised:not(:disabled){
+  background: rgba(21, 112, 48, 0.64); 
+}
+
+/*snackbar ****************************/
+
+
+.mdc-snackbar__surface{
+  background : rgba(21, 112, 48, 0.64);
+}
+
+@media (max-width: 600px) {
+ .fname,.lname, .email, .password{
+  display: block;
+  width: 300px;
+  margin: 20px auto;
+}
+}
